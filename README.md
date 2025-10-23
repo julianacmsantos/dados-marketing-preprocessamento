@@ -2,6 +2,8 @@
 
 Este projeto realiza o **pré-processamento completo** do dataset `dados_marketing.csv`, com foco em limpeza, enriquecimento e preparação dos dados para análises exploratórias e modelagem preditiva.
 
+---
+
 ## 🧰 Bibliotecas utilizadas
 
 | Biblioteca | Finalidade |
@@ -10,11 +12,15 @@ Este projeto realiza o **pré-processamento completo** do dataset `dados_marketi
 | `numpy`    | Criação de atributos binários (`np.where`), soma de colunas, operações vetoriais |
 | `os`       | Verificação e criação de diretórios para salvar o arquivo final (`os.path.exists`, `os.makedirs`) |
 
+---
+
 ## 📁 Estrutura do projeto
 
 - `dados_marketing.csv`: arquivo original com os dados brutos  
 - `dados_marketing_limpo.csv`: arquivo final após pré-processamento  
 - `dados_marketing_limpo.ipynb`: notebook com todo o pipeline de limpeza e engenharia de atributos  
+
+---
 
 ## ⚙️ Etapas do pré-processamento
 
@@ -54,21 +60,25 @@ Este projeto realiza o **pré-processamento completo** do dataset `dados_marketi
 - Cálculo de métricas de limpeza (linhas removidas e porcentagem)
 - Exportação do dataset limpo para `.csv` com encoding UTF-8
 
+---
+
 ## 📦 Como usar
-# Clone o repositório
+
+```bash
+Clone o repositório
 git clone https://github.com/julianacmsantos/dados-marketing-preprocessamento.git
 
-# Copie o caminho do arquivo dados_marketing.csv
+Copie o caminho do arquivo dados_marketing.csv
 Cole o caminho no notebook em:
 
 "
 df = pd.read_csv('/content/drive/MyDrive/Estudos/Dados/Marketing/dados_marketing.csv', sep=';')
 "
 
-# Instale as dependências
+Instale as dependências
 import pandas as pd
 import os
 import numpy as np
 
-# Execute o notebook
-# Você pode usar Jupyter Notebook, Google Colab ou outro ambiente compatível
+Execute o notebook
+Você pode usar Jupyter Notebook, Google Colab ou outro ambiente compatível
