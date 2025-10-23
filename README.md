@@ -82,3 +82,10 @@ import numpy as np
 
 Execute o notebook
 Você pode usar Jupyter Notebook, Google Colab ou outro ambiente compatível
+```
+-----
+
+## 📌 Observações
+O dataset final está pronto para análises estatísticas, segmentações e modelos preditivos.
+
+O pipeline pode ser adaptado para outros conjuntos de dados com estrutura semelhante.
