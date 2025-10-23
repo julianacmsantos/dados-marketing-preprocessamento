@@ -55,7 +55,20 @@ Este projeto realiza o **pré-processamento completo** do dataset `dados_marketi
 - Exportação do dataset limpo para `.csv` com encoding UTF-8
 
 ## 📦 Como usar
+# Clone o repositório
+git clone https://github.com/julianacmsantos/dados-marketing-preprocessamento.git
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/julianacmsantos/dados-marketing-preprocessamento.git
+# Copie o caminho do arquivo dados_marketing.csv
+Cole o caminho no notebook em:
+
+"
+df = pd.read_csv('/content/drive/MyDrive/Estudos/Dados/Marketing/dados_marketing.csv', sep=';')
+"
+
+# Instale as dependências
+import pandas as pd
+import os
+import numpy as np
+
+# Execute o notebook
+# Você pode usar Jupyter Notebook, Google Colab ou outro ambiente compatível
