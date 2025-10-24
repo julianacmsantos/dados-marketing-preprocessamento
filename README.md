@@ -72,7 +72,7 @@ Copie o caminho do arquivo dados_marketing.csv
 Cole o caminho no notebook em:
 
 "
-df = pd.read_csv('/content/drive/MyDrive/Estudos/Dados/Marketing/dados_marketing.csv', sep=';')
+df = pd.read_csv('******/dados_marketing.csv', sep=';')
 "
 
 Instale as dependências
